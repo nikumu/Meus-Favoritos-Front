@@ -1,30 +1,25 @@
-<h1 justify='center'>
-  <img height='40' width='40' title='Logo' alt='logo' src='https://github.com/bush1D3v/my_portfolio_html/assets/133554156/b2650afc-a61a-46fb-ae27-823e8461a836' />
-  PORTFÓLIO DE VICTOR NAVARRO
-</h1>
+# 📺 MEUS FAVORITOS
 
 ![License](https://img.shields.io/static/v1?label=license&message=MIT&color=orange) &nbsp;
-![Yarn version](https://img.shields.io/static/v1?label=yarn&message=v1.22.21&color=yellow) &nbsp;
-![Repository size](https://img.shields.io/github/repo-size/bush1D3v/my_portfolio?color=blue) &nbsp;
+![Bun version](https://img.shields.io/static/v1?label=yarn&message=v1.0.26&color=yellow) &nbsp;
+![Repository size](https://img.shields.io/github/repo-size/Stormlight-Projects/Meus-Favoritos-Front?color=blue) &nbsp;
 ![Pull request](https://img.shields.io/static/v1?label=PR&message=welcome&color=green)
 
 ## 🔍 Sobre o Projeto
 
-O meu **Portfólio** é uma aplicação de **histórico profissional**, onde tem o objetivo de reunir **formações**, **projetos** e **informações profissionais** e **sobre o desenvolvedor** num geral.
+A plataforma de entretenimento **Meus Favoritos** é voltada para usuários apaixonados por animes, livros, séries, músicas e filmes. Aqui, sua criatividade e paixão fluem **naturalmente**, basta ser você mesmo.
 
 ## 🛠️ Tecnologias e Ferramentas Utilizadas
 
 <div align='center'>
    <img align='center' height='57' width='57' title='Next' alt='next' src='https://github.com/bush1D3v/linktree/assets/133554156/7d633728-0fbe-4567-9e97-ba9a82fddf4b' />
    <img align='center' height='50' width='70' title='TypeScript' alt='typescript' src='https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg' />
+   <img align='center' height='58' width='58' title='Socket.io' alt='socket.io' src='https://github.com/bush1D3v/tsbank_front/assets/133554156/18b67642-7904-493c-a23d-dc0171dd4b65' />
    <img align='center' height='54' width='68' title='React' alt='react' src='https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg' />
    <img align='center' height='54' width='68' title='Tailwindcss' alt='tailwindcss' src='https://github.com/devicons/devicon/blob/master/icons/tailwindcss/tailwindcss-original.svg' />
-   <img align='center' height='64' width='68' title='Sass' alt='sass' src='https://github.com/devicons/devicon/blob/master/icons/sass/sass-original.svg' />
    <img align='center' height='50' width='70' title='JavaScript' alt='javascript' src='https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg' />
    <img align='center' height='50' width='70' title='CSS3' alt='css3' src='https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg' />
-   <img align='center' height='58' width='80' title='Tailwindcss-animated' alt='tailwindcss-animated' src='https://github.com/bush1D3v/my_portfolio_html/assets/133554156/364156ca-f265-4478-bcc3-4a12830c46a7' />
    <img align='center' height='68' width='72' title='Potcss' alt='postcss' src='https://github.com/bush1D3v/my_portfolio/assets/133554156/85b7c73b-e181-4c95-b9de-a8e0ba0523d3' />
-   <img align='center' height='70' width='50' title='Axios' alt='axios' src='https://github.com/bush1D3v/tsbank_front/assets/133554156/b9ff307f-3582-4635-ae6e-361215efc742' /> &nbsp;
    <img align='center' height='49' width='59' title='Zod' alt='zod' src='https://github.com/bush1D3v/tsbank_front/assets/133554156/5a769805-23e2-4f8b-904d-034b25a982a6' />
    <img align='center' height='54' width='68' title='Node.js' alt='nodejs' src='https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg' />
    <img align='center' height='70' width='70' title='Docker' alt='docker' src='https://github.com/devicons/devicon/blob/master/icons/docker/docker-plain.svg' />
@@ -40,11 +35,11 @@ Com a adição do Docker, você agora pode utilizar dos scripts fornecidos em `p
 
 Para isso, segue a lista de funções de cada script:
 
-> `docker-build`: Constrói a imagem docker do projeto <br> `docker-start`: Sobe e roda/só roda o container my_portfolio <br> `docker-stop`: Para o container my_portfolio
+> `docker-build`: Constrói a imagem docker do projeto <br> `docker-start`: Sobe e roda/só roda o container meus-favoritos_front
 
-# 🖋️ Contribuindo para o Portfólio
+# 🖋️ Contribuindo para o Meus Favoritos
 
-Agradeço pelo seu interesse em contribuir para o meu **Portfólio**. Sua ajuda é **valiosa** para melhorar e **expandir** minha aplicação. Abaixo estão as **diretrizes** e os **passos** para contribuir com meu projeto.
+Agradeço pelo seu interesse em contribuir para o projeto **Meus Favoritos**. Sua ajuda é **valiosa** para melhorar e **expandir** minha aplicação. Abaixo estão as **diretrizes** e os **passos** para contribuir com meu projeto.
 
 ## 💻 Como Contribuir
 
@@ -57,22 +52,16 @@ Antes de começar, você **deverá** forkar o repositório do projeto para **seu
 Após o Fork, você **precisará** clonar o repositório forkado para seu **ambiente de desenvolvimento local**:
 
 ```
-git clone https://github.com/{seu-usuario}/my_portfolio.git
-cd my_portfolio
+git clone https://github.com/{seu-usuario}/Meus-Favoritos-Front.git
+cd Meus-Favoritos-Front
 ```
 
 ### ⏬ Instalando Dependências
 
-Certifique-se de ter Node.js instalado no seu sistema. Em seguida, instale as dependências necessárias:
+Certifique-se de ter Node.js ou Bun instalado no seu sistema. Em seguida, instale as dependências necessárias:
 
 ```
-npm install
-```
-
-ou
-
-```
-yarn install
+bun install
 ```
 
 ou
@@ -98,19 +87,13 @@ Faça as alterações necessárias no código, adicione novos recursos ou corre�
 Garanta que suas alterações não quebraram nenhum recurso existente. Execute os testes e certifique-se de que todos passam:
 
 ```
-npm run test
+bun jest
 ```
 
 ou
 
 ```
-yarn test
-```
-
-ou
-
-```
-pnpm test
+pnpm jest
 ```
 
 ### 📝 Documentando
@@ -149,4 +132,4 @@ Após criar um Pull Request, nossa equipe revisará suas alterações e fornecer
 
 #
 
-**_Agradeço pela sua contribuição e espero que possamos trabalhar juntos para tornar o meu Portfólio ainda melhor. Se você tiver alguma dúvida ou precisar de ajuda, não hesite em entrar em contato comigo. Juntos, podemos criar uma aplicação mais robusta e eficiente._**
+**_Agradeço pela sua contribuição e espero que possamos trabalhar juntos para tornar o meu Meus Favoritos ainda melhor. Se você tiver alguma dúvida ou precisar de ajuda, não hesite em entrar em contato comigo. Juntos, podemos criar uma aplicação mais robusta e eficiente._**
