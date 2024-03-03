@@ -1,36 +1,152 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 justify='center'>
+  <img height='40' width='40' title='Logo' alt='logo' src='https://github.com/bush1D3v/my_portfolio_html/assets/133554156/b2650afc-a61a-46fb-ae27-823e8461a836' />
+  PORTFÓLIO DE VICTOR NAVARRO
+</h1>
 
-## Getting Started
+![License](https://img.shields.io/static/v1?label=license&message=MIT&color=orange) &nbsp;
+![Yarn version](https://img.shields.io/static/v1?label=yarn&message=v1.22.21&color=yellow) &nbsp;
+![Repository size](https://img.shields.io/github/repo-size/bush1D3v/my_portfolio?color=blue) &nbsp;
+![Pull request](https://img.shields.io/static/v1?label=PR&message=welcome&color=green)
 
-First, run the development server:
+## 🔍 Sobre o Projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+O meu **Portfólio** é uma aplicação de **histórico profissional**, onde tem o objetivo de reunir **formações**, **projetos** e **informações profissionais** e **sobre o desenvolvedor** num geral.
+
+## 🛠️ Tecnologias e Ferramentas Utilizadas
+
+<div align='center'>
+   <img align='center' height='57' width='57' title='Next' alt='next' src='https://github.com/bush1D3v/linktree/assets/133554156/7d633728-0fbe-4567-9e97-ba9a82fddf4b' />
+   <img align='center' height='50' width='70' title='TypeScript' alt='typescript' src='https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg' />
+   <img align='center' height='54' width='68' title='React' alt='react' src='https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg' />
+   <img align='center' height='54' width='68' title='Tailwindcss' alt='tailwindcss' src='https://github.com/devicons/devicon/blob/master/icons/tailwindcss/tailwindcss-original.svg' />
+   <img align='center' height='64' width='68' title='Sass' alt='sass' src='https://github.com/devicons/devicon/blob/master/icons/sass/sass-original.svg' />
+   <img align='center' height='50' width='70' title='JavaScript' alt='javascript' src='https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg' />
+   <img align='center' height='50' width='70' title='CSS3' alt='css3' src='https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg' />
+   <img align='center' height='58' width='80' title='Tailwindcss-animated' alt='tailwindcss-animated' src='https://github.com/bush1D3v/my_portfolio_html/assets/133554156/364156ca-f265-4478-bcc3-4a12830c46a7' />
+   <img align='center' height='68' width='72' title='Potcss' alt='postcss' src='https://github.com/bush1D3v/my_portfolio/assets/133554156/85b7c73b-e181-4c95-b9de-a8e0ba0523d3' />
+   <img align='center' height='70' width='50' title='Axios' alt='axios' src='https://github.com/bush1D3v/tsbank_front/assets/133554156/b9ff307f-3582-4635-ae6e-361215efc742' /> &nbsp;
+   <img align='center' height='49' width='59' title='Zod' alt='zod' src='https://github.com/bush1D3v/tsbank_front/assets/133554156/5a769805-23e2-4f8b-904d-034b25a982a6' />
+   <img align='center' height='54' width='68' title='Node.js' alt='nodejs' src='https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg' />
+   <img align='center' height='70' width='70' title='Docker' alt='docker' src='https://github.com/devicons/devicon/blob/master/icons/docker/docker-plain.svg' />
+</div>
+
+## 🏗 Estrutura e Arquitetura
+
+O projeto segue os princípios da **arquitetura limpa**, e o código foi organizado de acordo com os princípios de **modularidade**, **reutilização** e **responsabilidade única**.
+
+## 🐳 Docker
+
+Com a adição do Docker, você agora pode utilizar dos scripts fornecidos em `package.json` para poder construir a imagem docker e rodar o container da aplicação.
+
+Para isso, segue a lista de funções de cada script:
+
+> `docker-build`: Constrói a imagem docker do projeto <br> `docker-start`: Sobe e roda/só roda o container my_portfolio <br> `docker-stop`: Para o container my_portfolio
+
+# 🖋️ Contribuindo para o Portfólio
+
+Agradeço pelo seu interesse em contribuir para o meu **Portfólio**. Sua ajuda é **valiosa** para melhorar e **expandir** minha aplicação. Abaixo estão as **diretrizes** e os **passos** para contribuir com meu projeto.
+
+## 💻 Como Contribuir
+
+### 🌳 Forkando o Repositório
+
+Antes de começar, você **deverá** forkar o repositório do projeto para **seu perfil**.
+
+### 🖨 Clonando seu Repositório
+
+Após o Fork, você **precisará** clonar o repositório forkado para seu **ambiente de desenvolvimento local**:
+
+```
+git clone https://github.com/{seu-usuario}/my_portfolio.git
+cd my_portfolio
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### ⏬ Instalando Dependências
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Certifique-se de ter Node.js instalado no seu sistema. Em seguida, instale as dependências necessárias:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
+npm install
+```
 
-## Learn More
+ou
 
-To learn more about Next.js, take a look at the following resources:
+```
+yarn install
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+ou
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```
+pnpm install
+```
 
-## Deploy on Vercel
+### 🆕 Criando uma Branch
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Antes de iniciar qualquer trabalho, crie uma branch separada para a sua contribuição. Use um nome descritivo para a sua branch:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
+git checkout -b feature/nova-funcionalidade
+```
+
+### 🔨 Fazendo Alterações
+
+Faça as alterações necessárias no código, adicione novos recursos ou correções de bugs.
+
+### 🧪 Testando
+
+Garanta que suas alterações não quebraram nenhum recurso existente. Execute os testes e certifique-se de que todos passam:
+
+```
+npm run test
+```
+
+ou
+
+```
+yarn test
+```
+
+ou
+
+```
+pnpm test
+```
+
+### 📝 Documentando
+
+Mantenha a documentação atualizada. Se você adicionou novos recursos, verifique se eles estão devidamente documentados no README.
+
+### 📊 Compromissos e Push
+
+Após concluir suas alterações e testá-las, faça um commit das alterações:
+
+```
+git add .
+git commit -m <tipo de alteração>(nomeDoArquivo): Nova funcionalidade
+```
+
+Em seguida, envie suas alterações para o repositório:
+
+```
+git push origin feature/nova-funcionalidade
+```
+
+### 📨 Solicitando um Pull Request (PR)
+
+Vá para o repositório no GitHub e crie um Pull Request para que sua contribuição seja revisada. Certifique-se de descrever suas alterações e fornecer informações contextuais.
+
+### 👁 Revisão e Fusão
+
+Após criar um Pull Request, nossa equipe revisará suas alterações e fornecerá feedback. Uma vez aprovado, suas alterações serão mescladas no projeto principal.
+
+## 💼 Diretrizes Gerais
+
+- Mantenha o código limpo e legível.
+- Siga as boas práticas de desenvolvimento.
+- Respeite as convenções de nomenclatura existentes.
+- Documente adequadamente as alterações, recursos ou correções.
+
+#
+
+**_Agradeço pela sua contribuição e espero que possamos trabalhar juntos para tornar o meu Portfólio ainda melhor. Se você tiver alguma dúvida ou precisar de ajuda, não hesite em entrar em contato comigo. Juntos, podemos criar uma aplicação mais robusta e eficiente._**
