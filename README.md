@@ -17,7 +17,6 @@ A plataforma de entretenimento **Meus Favoritos** é voltada para usuários apai
    <img align='center' height='58' width='58' title='Socket.io' alt='socket.io' src='https://github.com/bush1D3v/tsbank_front/assets/133554156/18b67642-7904-493c-a23d-dc0171dd4b65' />
    <img align='center' height='54' width='68' title='React' alt='react' src='https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg' />
    <img align='center' height='54' width='68' title='Tailwindcss' alt='tailwindcss' src='https://github.com/devicons/devicon/blob/master/icons/tailwindcss/tailwindcss-original.svg' />
-   <img align='center' height='50' width='70' title='JavaScript' alt='javascript' src='https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg' />
    <img align='center' height='50' width='70' title='CSS3' alt='css3' src='https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg' />
    <img align='center' height='68' width='72' title='Potcss' alt='postcss' src='https://github.com/bush1D3v/my_portfolio/assets/133554156/85b7c73b-e181-4c95-b9de-a8e0ba0523d3' />
    <img align='center' height='49' width='59' title='Zod' alt='zod' src='https://github.com/bush1D3v/tsbank_front/assets/133554156/5a769805-23e2-4f8b-904d-034b25a982a6' />
