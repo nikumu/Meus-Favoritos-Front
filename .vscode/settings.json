@@ -1,0 +1,8 @@
+{
+  "cSpell.words": ["clsx"],
+  "symbols.folders.associations": {
+    "lib": "folder-config",
+    "ui": "folder-sky-outline",
+    "hooks": "folder-purple-code"
+  }
+}
